@@ -26,7 +26,7 @@ service.interceptors.response.use(
     // 对响应数据做处理，例如只返回data部分
     const res = response.data;
     // 如果返回的状态码为200，说明成功，可以直接返回数据
-    if (res.code === 200) {
+    if (res.status === 200) {
       return res.data;
     } else {
       // 其他状态码都当作错误处理

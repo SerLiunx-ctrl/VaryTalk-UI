@@ -1,0 +1,15 @@
+div,p,ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.el-card{
+    margin: 10px;
+}
+
+.el-menu-demo{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
